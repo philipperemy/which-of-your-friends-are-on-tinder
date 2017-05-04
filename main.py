@@ -34,15 +34,16 @@ if __name__ == '__main__':
             return 'N/A'
 
 
-    print('-' * 80)
-    print('%15s  %15s  %15s  %15s' % ('First Name', 'Last Name', 'Gender', 'URL'))
+    print('-' * 100)
+    pattern = '%20s  %20s  %10s  %50s'
+    print(pattern % ('First Name', 'Last Name', 'Gender', 'URL'))
 
     for friend in my_profile['friends']:
         profile = query_profile_with_graph_api(profile_id=friend, access_token=fb_auth_token)
         request = 'https://www.facebook.com/{}'.format(friend)
 
-        print('%15s  %15s  %15s  %15s' % (get(profile, 'first_name'),
-                                          get(profile, 'last_name'),
-                                          get(profile, 'gender'),
-                                          request))
-    print('-' * 80)
+        print(pattern % (get(profile, 'first_name'),
+                         get(profile, 'last_name'),
+                         get(profile, 'gender'),
+                         request))
+    print('-' * 100)
