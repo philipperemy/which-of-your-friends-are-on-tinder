@@ -2,6 +2,12 @@
 
 *Discover which of your friends are on Tinder. Don't forget to star or fork this repo if you appreciate the repo!*
 
+## Disclaimer
+Please keep in mind that whenever someone creates a profile on Tinder, it will appear in this list forever. Even though this person no longer uses it. Use it just for fun experiments! Not for something too serious. Thanks!
+
+The Tinder API is available here:
+- https://gist.github.com/rtt/10403467
+
 ## Output of the program
 ```
 Which of your friends are on Tinder?
