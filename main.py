@@ -36,7 +36,7 @@ if __name__ == '__main__':
 
     print('-' * 130)
     pattern = '%20s  %20s  %10s    %20s  %50s'
-    print(pattern % ('First Name', 'Last Name', 'Gender', 'Last Profile Update Time', 'URL'))
+    print(pattern % ('First Name', 'Last Name', 'Gender', 'Last Facebook Update Time', 'URL'))
 
     for friend in my_profile['friends']:
         profile = query_profile_with_graph_api(profile_id=friend, access_token=fb_auth_token)
