@@ -2,6 +2,10 @@
 
 *Discover which of your friends are on Tinder. Don't forget to star or fork this repo if you appreciate the repo!*
 
+<center>
+<img src="coollogo_com-19375962.png"></img>
+</center>
+
 ## Disclaimer
 Please keep in mind that whenever someone creates a profile on Tinder, it will appear in this list forever. Even though this person no longer uses it. Use it just for fun experiments! Not for something too serious. Thanks!
 
