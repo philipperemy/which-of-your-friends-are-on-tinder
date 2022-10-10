@@ -62,4 +62,4 @@ If the configuration file is correct, you will see: `Successfully connected to T
 
 ## Support
 
-You can either open an `Issue` or send me a e-mail to premy@cogent.co.jp. Any contributions are welcomed!
+You can either open an `Issue` or send me a e-mail to premy.enseirb@gmail.com. Any contributions are welcomed!
